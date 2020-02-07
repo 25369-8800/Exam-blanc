@@ -1,3 +1,10 @@
 .background{
     background-image: url(/Assets/Images/vosges-1051976_1920.jpg);
 }
+
+.after::after{
+    content: 'Dec 7, 2020';
+    display: block;
+    font-size: 20px;
+    color: orange;
+}
